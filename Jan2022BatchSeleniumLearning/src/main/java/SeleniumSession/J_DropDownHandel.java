@@ -15,8 +15,8 @@ public class J_DropDownHandel extends Utils{
         driver.get("https://demo.nopcommerce.com/");
         Thread.sleep(1000);
 
-        driver.findElement(By.linkText("Register")).click();
-
+       // driver.findElement(By.linkText("Register")).click();
+        driver.findElement(By.className("ico-register")).click();
         Thread.sleep(1000);
 //1.
 //        driver.findElement(By.name("DateOfBirthDay")).sendKeys("11");
