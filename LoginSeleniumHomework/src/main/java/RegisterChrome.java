@@ -24,8 +24,8 @@ public class RegisterChrome {
         driver.findElement(By.id("Email")).sendKeys("email@url.com");
         driver.findElement(By.id("Company")).sendKeys("SSE IT");
 
-        Thread.sleep(1000);
-        driver.findElement(By.xpath("//*[@id=\"Newsletter\"]")).isSelected(); //select's newsletter
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//*[@id=\"Newsletter\"]")).click(); //untick the newsletter
         driver.findElement(By.name("Password")).sendKeys("Passw0rd!");
         driver.findElement(By.name("ConfirmPassword")).sendKeys("Passw0rd!");
 
