@@ -1,0 +1,21 @@
+TestNG - Testing new generation framework, Unit test framework, Developer are write test cases on Junit and TestNG.
+
+TestNG - Also called TDD framework.
+
+Purpose/ Advantages:
+- Design test cases in a systematic way.
+- HTML REPORTS
+- DIFF ANNOTATIONS
+- PRIORITIES/SEQUENCE
+- DEPENDENCY
+- GROUPING ALSO POSSIBLE
+- DATA PROVIDER
+- TEST CASES MULTIPLE TIME
+
+Junit and TestnNG - Used for Java unit testing framework. Similar all language got different framework available
+
+XML: XML stands for extensible Markup Language;XML is a markup language much like HTML;
+XML was designed to store and transport data.
+
+TestNG xml: TestNG.xml file is an XML file which contains all the Test configuration
+and this XML file can be used to run and organize our test.
